@@ -28,7 +28,6 @@ static NSDictionary *environment;
         environment = [environments objectForKey:environmentName];
         if (!environment) USL_LOG(@"WARNING: could not find config for %@ in %@", environmentName, environments);
         defaults = [environments objectForKey:@"Defaults"];
-        
     });
     NSString *value = environment[name];
     if (!value) value = defaults[name];
