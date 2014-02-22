@@ -53,13 +53,16 @@ def partition_project(jsondata):
         configuration_lists(jsondata))
 
 def format_setting(key, value):
-    return '{0} = {1}\n'.format(key, value)
+    # since strings are also iterable, we have to try a little harder
+    # to avoid treating them as lists
+    string_value = value if str(value) == value else ' '.join(value)
+    return '{0} = {1}\n'.format(key, string_value)
 
 
 def write_file(prefix, settings, include=None):
     with open('{0}.xcconfig'.format(prefix), 'w+') as outfile:
         if include:
-            outfile.write('#include {0}.xcconfig\n'.format(include))
+            outfile.write('#include "{0}.xcconfig"\n'.format(include))
         outfile.writelines(format_setting(k,v) for k,v in settings.iteritems())
 
 def write_files(common, defaults, targets):
