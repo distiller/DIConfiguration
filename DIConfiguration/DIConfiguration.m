@@ -1,16 +1,16 @@
 //
-//  USLConfiguration.m
-//  USLConfiguration
+//  DIConfiguration.m
+//  DIConfiguration
 //
 //  Copyright (c) 2014 Utah Street Labs, Inc. All rights reserved.
 //
 
-#import "USLConfiguration.h"
+#import "DIConfiguration.h"
 
 static NSDictionary *defaults;
 static NSDictionary *environment;
 
-@implementation USLConfiguration
+@implementation DIConfiguration
 
 // Inspired by http://blog.carbonfive.com/2011/06/20/managing-ios-configurations-per-environment-in-xcode-4/
 // Load two dictionaries: a per-configuration dictionary (Debug, Staging, Release, etc) and a defaults
@@ -26,12 +26,12 @@ static NSDictionary *environment;
         NSDictionary *environments = [[NSDictionary alloc] initWithContentsOfFile:envsPListPath];
         NSString* environmentName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"Configuration"];
         environment = [environments objectForKey:environmentName];
-        if (!environment) USL_LOG(@"WARNING: could not find config for %@ in %@", environmentName, environments);
+        if (!environment) DI_LOG(@"WARNING: could not find config for %@ in %@", environmentName, environments);
         defaults = [environments objectForKey:@"Defaults"];
     });
     NSString *value = environment[name];
     if (!value) value = defaults[name];
-    if (!value) USL_LOG(@"WARNING: configuration key %@ is not defined", name);
+    if (!value) DI_LOG(@"WARNING: configuration key %@ is not defined", name);
     return value;
 }
 

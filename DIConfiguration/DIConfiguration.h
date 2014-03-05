@@ -1,16 +1,16 @@
 //
-//  USLConfiguration.h
-//  USLConfiguration
+//  DIConfiguration.h
+//  DIConfiguration
 //
 //  Copyright (c) 2014 Utah Street Labs, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-#ifndef USL_LOG
-#define USL_LOG NSLog
+#ifndef DI_LOG
+#define DI_LOG NSLog
 #endif
 
-@interface USLConfiguration : NSObject
+@interface DIConfiguration : NSObject
 + prop:(NSString *)name;
 @end
