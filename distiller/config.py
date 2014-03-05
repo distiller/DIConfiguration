@@ -1,4 +1,5 @@
 import json
+import operator
 import subprocess
 from pprint import pprint
 
@@ -63,7 +64,8 @@ def write_file(prefix, settings, include=None):
     with open('{0}.xcconfig'.format(prefix), 'w+') as outfile:
         if include:
             outfile.write('#include "{0}.xcconfig"\n'.format(include))
-        outfile.writelines(format_setting(k,v) for k,v in settings.iteritems())
+        ordered = sorted(settings.iteritems(), key=operator.itemgetter(0))
+        outfile.writelines(format_setting(k,v) for k,v in ordered)
 
 def write_files(common, defaults, targets):
     write_file('Default', common)
