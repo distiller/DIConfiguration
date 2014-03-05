@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8019E63418B6B26D00EF14A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8019E63318B6B26D00EF14A5 /* Foundation.framework */; };
-		8019E63918B6B26D00EF14A5 /* USLConfiguration.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8019E63818B6B26D00EF14A5 /* USLConfiguration.h */; };
-		8019E63B18B6B26D00EF14A5 /* USLConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8019E63A18B6B26D00EF14A5 /* USLConfiguration.m */; };
+		8019E63918B6B26D00EF14A5 /* DIConfiguration.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8019E63818B6B26D00EF14A5 /* DIConfiguration.h */; };
+		8019E63B18B6B26D00EF14A5 /* DIConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8019E63A18B6B26D00EF14A5 /* DIConfiguration.m */; };
 		8019E64218B6B26D00EF14A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8019E64118B6B26D00EF14A5 /* XCTest.framework */; };
 		8019E64318B6B26D00EF14A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8019E63318B6B26D00EF14A5 /* Foundation.framework */; };
 		8019E64518B6B26D00EF14A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8019E64418B6B26D00EF14A5 /* UIKit.framework */; };
-		8019E64818B6B26D00EF14A5 /* libUSLConfiguration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8019E63018B6B26D00EF14A5 /* libUSLConfiguration.a */; };
+		8019E64818B6B26D00EF14A5 /* libDIConfiguration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8019E63018B6B26D00EF14A5 /* libDIConfiguration.a */; };
 		8019E64E18B6B26D00EF14A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8019E64C18B6B26D00EF14A5 /* InfoPlist.strings */; };
-		8019E65018B6B26D00EF14A5 /* USLConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8019E64F18B6B26D00EF14A5 /* USLConfigurationTests.m */; };
+		8019E65018B6B26D00EF14A5 /* DIConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8019E64F18B6B26D00EF14A5 /* DIConfigurationTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +24,7 @@
 			containerPortal = 8019E62818B6B26D00EF14A5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8019E62F18B6B26D00EF14A5;
-			remoteInfo = USLConfiguration;
+			remoteInfo = DIConfiguration;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,24 +35,24 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				8019E63918B6B26D00EF14A5 /* USLConfiguration.h in CopyFiles */,
+				8019E63918B6B26D00EF14A5 /* DIConfiguration.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8019E63018B6B26D00EF14A5 /* libUSLConfiguration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUSLConfiguration.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8019E63018B6B26D00EF14A5 /* libDIConfiguration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDIConfiguration.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8019E63318B6B26D00EF14A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8019E63718B6B26D00EF14A5 /* USLConfiguration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USLConfiguration-Prefix.pch"; sourceTree = "<group>"; };
-		8019E63818B6B26D00EF14A5 /* USLConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USLConfiguration.h; sourceTree = "<group>"; };
-		8019E63A18B6B26D00EF14A5 /* USLConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USLConfiguration.m; sourceTree = "<group>"; };
-		8019E64018B6B26D00EF14A5 /* USLConfigurationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USLConfigurationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8019E63718B6B26D00EF14A5 /* DIConfiguration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DIConfiguration-Prefix.pch"; sourceTree = "<group>"; };
+		8019E63818B6B26D00EF14A5 /* DIConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIConfiguration.h; sourceTree = "<group>"; };
+		8019E63A18B6B26D00EF14A5 /* DIConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIConfiguration.m; sourceTree = "<group>"; };
+		8019E64018B6B26D00EF14A5 /* DIConfigurationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIConfigurationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8019E64118B6B26D00EF14A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8019E64418B6B26D00EF14A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8019E64B18B6B26D00EF14A5 /* USLConfigurationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "USLConfigurationTests-Info.plist"; sourceTree = "<group>"; };
+		8019E64B18B6B26D00EF14A5 /* DIConfigurationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DIConfigurationTests-Info.plist"; sourceTree = "<group>"; };
 		8019E64D18B6B26D00EF14A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8019E64F18B6B26D00EF14A5 /* USLConfigurationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USLConfigurationTests.m; sourceTree = "<group>"; };
+		8019E64F18B6B26D00EF14A5 /* DIConfigurationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIConfigurationTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 				8019E64218B6B26D00EF14A5 /* XCTest.framework in Frameworks */,
 				8019E64518B6B26D00EF14A5 /* UIKit.framework in Frameworks */,
 				8019E64318B6B26D00EF14A5 /* Foundation.framework in Frameworks */,
-				8019E64818B6B26D00EF14A5 /* libUSLConfiguration.a in Frameworks */,
+				8019E64818B6B26D00EF14A5 /* libDIConfiguration.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +81,8 @@
 		8019E62718B6B26D00EF14A5 = {
 			isa = PBXGroup;
 			children = (
-				8019E63518B6B26D00EF14A5 /* USLConfiguration */,
-				8019E64918B6B26D00EF14A5 /* USLConfigurationTests */,
+				8019E63518B6B26D00EF14A5 /* DIConfiguration */,
+				8019E64918B6B26D00EF14A5 /* DIConfigurationTests */,
 				8019E63218B6B26D00EF14A5 /* Frameworks */,
 				8019E63118B6B26D00EF14A5 /* Products */,
 			);
@@ -91,8 +91,8 @@
 		8019E63118B6B26D00EF14A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8019E63018B6B26D00EF14A5 /* libUSLConfiguration.a */,
-				8019E64018B6B26D00EF14A5 /* USLConfigurationTests.xctest */,
+				8019E63018B6B26D00EF14A5 /* libDIConfiguration.a */,
+				8019E64018B6B26D00EF14A5 /* DIConfigurationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,37 +107,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8019E63518B6B26D00EF14A5 /* USLConfiguration */ = {
+		8019E63518B6B26D00EF14A5 /* DIConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				8019E63818B6B26D00EF14A5 /* USLConfiguration.h */,
-				8019E63A18B6B26D00EF14A5 /* USLConfiguration.m */,
+				8019E63818B6B26D00EF14A5 /* DIConfiguration.h */,
+				8019E63A18B6B26D00EF14A5 /* DIConfiguration.m */,
 				8019E63618B6B26D00EF14A5 /* Supporting Files */,
 			);
-			path = USLConfiguration;
+			path = DIConfiguration;
 			sourceTree = "<group>";
 		};
 		8019E63618B6B26D00EF14A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8019E63718B6B26D00EF14A5 /* USLConfiguration-Prefix.pch */,
+				8019E63718B6B26D00EF14A5 /* DIConfiguration-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8019E64918B6B26D00EF14A5 /* USLConfigurationTests */ = {
+		8019E64918B6B26D00EF14A5 /* DIConfigurationTests */ = {
 			isa = PBXGroup;
 			children = (
-				8019E64F18B6B26D00EF14A5 /* USLConfigurationTests.m */,
+				8019E64F18B6B26D00EF14A5 /* DIConfigurationTests.m */,
 				8019E64A18B6B26D00EF14A5 /* Supporting Files */,
 			);
-			path = USLConfigurationTests;
+			path = DIConfigurationTests;
 			sourceTree = "<group>";
 		};
 		8019E64A18B6B26D00EF14A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8019E64B18B6B26D00EF14A5 /* USLConfigurationTests-Info.plist */,
+				8019E64B18B6B26D00EF14A5 /* DIConfigurationTests-Info.plist */,
 				8019E64C18B6B26D00EF14A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8019E62F18B6B26D00EF14A5 /* USLConfiguration */ = {
+		8019E62F18B6B26D00EF14A5 /* DIConfiguration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8019E65318B6B26D00EF14A5 /* Build configuration list for PBXNativeTarget "USLConfiguration" */;
+			buildConfigurationList = 8019E65318B6B26D00EF14A5 /* Build configuration list for PBXNativeTarget "DIConfiguration" */;
 			buildPhases = (
 				8019E62C18B6B26D00EF14A5 /* Sources */,
 				8019E62D18B6B26D00EF14A5 /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = USLConfiguration;
-			productName = USLConfiguration;
-			productReference = 8019E63018B6B26D00EF14A5 /* libUSLConfiguration.a */;
+			name = DIConfiguration;
+			productName = DIConfiguration;
+			productReference = 8019E63018B6B26D00EF14A5 /* libDIConfiguration.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8019E63F18B6B26D00EF14A5 /* USLConfigurationTests */ = {
+		8019E63F18B6B26D00EF14A5 /* DIConfigurationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8019E65618B6B26D00EF14A5 /* Build configuration list for PBXNativeTarget "USLConfigurationTests" */;
+			buildConfigurationList = 8019E65618B6B26D00EF14A5 /* Build configuration list for PBXNativeTarget "DIConfigurationTests" */;
 			buildPhases = (
 				8019E63C18B6B26D00EF14A5 /* Sources */,
 				8019E63D18B6B26D00EF14A5 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				8019E64718B6B26D00EF14A5 /* PBXTargetDependency */,
 			);
-			name = USLConfigurationTests;
-			productName = USLConfigurationTests;
-			productReference = 8019E64018B6B26D00EF14A5 /* USLConfigurationTests.xctest */;
+			name = DIConfigurationTests;
+			productName = DIConfigurationTests;
+			productReference = 8019E64018B6B26D00EF14A5 /* DIConfigurationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +190,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Utah Street Labs, Inc.";
 			};
-			buildConfigurationList = 8019E62B18B6B26D00EF14A5 /* Build configuration list for PBXProject "USLConfiguration" */;
+			buildConfigurationList = 8019E62B18B6B26D00EF14A5 /* Build configuration list for PBXProject "DIConfiguration" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,8 +202,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8019E62F18B6B26D00EF14A5 /* USLConfiguration */,
-				8019E63F18B6B26D00EF14A5 /* USLConfigurationTests */,
+				8019E62F18B6B26D00EF14A5 /* DIConfiguration */,
+				8019E63F18B6B26D00EF14A5 /* DIConfigurationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8019E63B18B6B26D00EF14A5 /* USLConfiguration.m in Sources */,
+				8019E63B18B6B26D00EF14A5 /* DIConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8019E65018B6B26D00EF14A5 /* USLConfigurationTests.m in Sources */,
+				8019E65018B6B26D00EF14A5 /* DIConfigurationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +241,7 @@
 /* Begin PBXTargetDependency section */
 		8019E64718B6B26D00EF14A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8019E62F18B6B26D00EF14A5 /* USLConfiguration */;
+			target = 8019E62F18B6B26D00EF14A5 /* DIConfiguration */;
 			targetProxy = 8019E64618B6B26D00EF14A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -331,9 +331,9 @@
 		8019E65418B6B26D00EF14A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/USLConfiguration.dst;
+				DSTROOT = /tmp/DIConfiguration.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "USLConfiguration/USLConfiguration-Prefix.pch";
+				GCC_PREFIX_HEADER = "DIConfiguration/DIConfiguration-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -343,9 +343,9 @@
 		8019E65518B6B26D00EF14A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/USLConfiguration.dst;
+				DSTROOT = /tmp/DIConfiguration.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "USLConfiguration/USLConfiguration-Prefix.pch";
+				GCC_PREFIX_HEADER = "DIConfiguration/DIConfiguration-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -362,12 +362,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "USLConfiguration/USLConfiguration-Prefix.pch";
+				GCC_PREFIX_HEADER = "DIConfiguration/DIConfiguration-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "USLConfigurationTests/USLConfigurationTests-Info.plist";
+				INFOPLIST_FILE = "DIConfigurationTests/DIConfigurationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -383,8 +383,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "USLConfiguration/USLConfiguration-Prefix.pch";
-				INFOPLIST_FILE = "USLConfigurationTests/USLConfigurationTests-Info.plist";
+				GCC_PREFIX_HEADER = "DIConfiguration/DIConfiguration-Prefix.pch";
+				INFOPLIST_FILE = "DIConfigurationTests/DIConfigurationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -393,7 +393,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8019E62B18B6B26D00EF14A5 /* Build configuration list for PBXProject "USLConfiguration" */ = {
+		8019E62B18B6B26D00EF14A5 /* Build configuration list for PBXProject "DIConfiguration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8019E65118B6B26D00EF14A5 /* Debug */,
@@ -402,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8019E65318B6B26D00EF14A5 /* Build configuration list for PBXNativeTarget "USLConfiguration" */ = {
+		8019E65318B6B26D00EF14A5 /* Build configuration list for PBXNativeTarget "DIConfiguration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8019E65418B6B26D00EF14A5 /* Debug */,
@@ -410,7 +410,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8019E65618B6B26D00EF14A5 /* Build configuration list for PBXNativeTarget "USLConfigurationTests" */ = {
+		8019E65618B6B26D00EF14A5 /* Build configuration list for PBXNativeTarget "DIConfigurationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8019E65718B6B26D00EF14A5 /* Debug */,

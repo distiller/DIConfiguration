@@ -1,17 +1,17 @@
 //
-//  USLConfigurationTests.m
-//  USLConfigurationTests
+//  DIConfigurationTests.m
+//  DIConfigurationTests
 //
 //  Copyright (c) 2014 Utah Street Labs, Inc. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface USLConfigurationTests : XCTestCase
+@interface DIConfigurationTests : XCTestCase
 
 @end
 
-@implementation USLConfigurationTests
+@implementation DIConfigurationTests
 
 - (void)setUp
 {
